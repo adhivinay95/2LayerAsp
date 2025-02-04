@@ -71,6 +71,7 @@
     <Content Include="login.aspx" />
     <Content Include="view.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebForm6.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connectioncls.cs" />
@@ -95,6 +96,13 @@
     </Compile>
     <Compile Include="view.aspx.designer.cs">
       <DependentUpon>view.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm6.aspx.cs">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm6.aspx.designer.cs">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
